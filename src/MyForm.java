@@ -13,5 +13,9 @@ public class MyForm extends JFrame {
                 super.mouseClicked(e);
             }
         });
+        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        setContentPane(panel1);
+        pack();
+        setVisible(true);
     }
 }
